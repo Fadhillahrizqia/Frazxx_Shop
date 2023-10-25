@@ -1,7 +1,6 @@
 ## 1.1 Latar Belakang
 
-Disini saya akan membuat website bisnis yang bertemakan CoffeeShop. Alasan saya membuat website ini agar pelanggan dapat melihat informasi seputar coffeeshop tersebut, menu dan produk apa saja yang tersedia, maupun lokasinya.
-
+Disini saya akan membuat website bisnis yang bertemakan E-commerce. Dan yang menjadi alasan saya membuat E-commerce ini adalah agar kita bisa melakukan perdagangan serta pembelian secara mudah dan simpel dengan melalui sistem elektronik
      
 Proses Pembangunan Teknologi Informasi secara umum mengikuti Web Development Life Cycle :
 
@@ -12,18 +11,18 @@ Proses Pembangunan Teknologi Informasi secara umum mengikuti Web Development Lif
 
    -	Design
 
-    	Setelah itu saya akan mencoba mendesain sketsa dari website saya, kemudian didesain lebih jelas menggunakan Figma
+    	Setelah itu saya akan mencoba mendesain sketsa dari website saya, kemudian didesain dengan saya gambar agar memudahkan penggambaarannya
 
    -	Development
-     Setelah desain dan menentukan teknologi apa saja yang akan digunakan, kemudian saya akan mencoba mengaplikasikan desain tadi ke kodingan. Mulanya saya akan membuat struktur dasar menggunakan HTML, kemudian diberikan style menggunakan CSS, dan terakhir untuk fitut atau interaksi pengguna menggunakan JavaScript.
+     Setelah desain dan menentukan teknologi apa saja yang akan digunakan, kemudian saya akan mencoba mengaplikasikan desain tadi ke kodingan. Mulanya saya akan membuat struktur dasar menggunakan HTML, kemudian diberikan style menggunakan CSS,dan JavaScript
 
    - Testing & Review
 
-     Setelah ketiga tahapan tadi, website yang sudah hamper selesai ditest terlebih dahulu, diperiksa semuanya dan dicari kesalahannya bila ada. Setelah itu saya mencoba meminta review ke orang lain untuk memberikan pendapat dan kritik mereka.
+     Setelah ketiga tahapan tadi, website yang sudah hampir selesai ditest terlebih dahulu, diperiksa semuanya dan dicari kesalahannya bila ada. Setelah itu saya mencoba meminta review ke orang lain untuk memberikan pendapat dan kritik mereka guna mempermudah saya menemukan letak kesalahan saya bila ada.
 
    - Deployment
 
-     Setelah website saya dipastikan sempurna dan tidak ada kesalahan, juga sudah mendapatkan review yang baik, maka saya akan upload websitenya di akun github saya, yang kemudian akan saya hosting ke internet. Sehingga website saya bisa diakses melalui internet.
+     Setelah website saya dipastikan sempurna dan tidak ada kesalahan, juga sudah mendapatkan review yang baik, maka saya akan upload websitenya di akun github saya, yang kemudian akan saya posting ke internet. Sehingga website saya bisa diakses melalui internet.
 
    - Maintenance
 
@@ -32,33 +31,26 @@ Proses Pembangunan Teknologi Informasi secara umum mengikuti Web Development Lif
 
 ## 1.2. Deksripsi Teknologi Informasi
 
-Didalam website ini akan terdapat homepage tentang landing page café saya, menu yang disajikan, product yang bisa dibeli, dan info seputar café saya dan lokasinya. Selain itu pengguna bisa menggunakan fitur seperti navbar, search, add to cart, dll. 
+Didalam website ini akan terdapat homepage tentang landing page toko saya
 
-Fitur tersebut dapat kita dapatkan menggunakan bahasa JavaScript.
+•	Merk = Frazx (Terinspirasi dari "Nama saya sendiri")
 
-## 1.3. Branding
+•	Tagline = "Great Product Great Service"
 
-Pada tahap ini kita akan mengeksplorasi branding dari system yang dibuat. Branding meliputi :
-
-•	Merk = Dracoffee (terinspirasi dari nama rasi bintang “Draco”)
-
-•	Tagline = “ Behind every great day is a cup of coffee “
-
-•	Campaign = Bagaimana membuat website yang menyediakan info bagi pembeli tentang bisnis dracoffee, maupun melakukan transaksi secara online agar memudahkan pembeli
+•	Campaign = Bagaimana membuat website yang menyediakan info bagi pembeli tentang bisnis E-Commerce, maupun melakukan transaksi secara online agar memudahkan pembeli
 
 •	Target User :
 
     o	Usia 15+
     
-    o	Orang yang senang minum kopi
+    o	Orang yang ingin membeli barang elektronik
     
-    o	Orang yang ingin melihat referensi coffeeshop
+    o	Orang yang ingin melihat referensi E-commerce
     
-    o	Orang yang suka membeli barang (khususnya kopi) secara online
+    o	Orang yang suka membeli barang secara online
     
-    o	Orang yang sering mengeksplor coffeeshop
-    
-    o	Orang yang ingin melihat menu sebelum datang ke coffeeshopnya
+       
+    o	Orang yang ingin melihat productnya sebelum datang ke toko
     
     •	User Experience :
     
@@ -70,7 +62,7 @@ Pada tahap ini kita akan mengeksplorasi branding dari system yang dibuat. Brandi
     
     o	Menginspirasi
     
-    o	Warna : warna kopi (coklat), background hitam
+    o	Warna : warna orange, background biru
 
 - Inspirasi Desain :
 
