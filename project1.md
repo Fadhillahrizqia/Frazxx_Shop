@@ -78,7 +78,8 @@ Pada tahap ini kita akan mengeksplorasi branding dari system yang dibuat. Brandi
 
 
 <img width="550" alt="image" src="https://github.com/anandanovianshaf/dracoffee/assets/144409312/fd32d28b-e2cb-4174-a7eb-8a7ba3421883">
-![map](https://github.com/Fadhillahrizqia/Frazxx_Shop/assets/144824636/41f225d5-3e44-4090-93fc-453fda9e99ac)
+![gambar shop](https://github.com/Fadhillahrizqia/Frazxx_Shop/assets/144824636/c065a4d2-0ad4-49ae-845d-d6032be49a8e)
+
 
 
 
