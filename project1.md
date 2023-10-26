@@ -73,6 +73,8 @@ Didalam website ini akan terdapat homepage tentang landing page toko saya
 
 <img width="550" alt="image" src="https://github.com/Fadhillahrizqia/Frazxx_Shop/assets/144824636/6717caf4-06e9-4abf-8ba5-cf5a196efbdf">
 
+<img width="150" alt="image" src="https://github.com/Fadhillahrizqia/Frazxx_Shop/assets/144824636/795246ff-9ea2-4330-9b18-68f0f38e8ef8">
+
 
 
 
