@@ -66,8 +66,6 @@ Didalam website ini akan terdapat homepage tentang landing page toko saya
 
 - Inspirasi Desain :
 
-<img width="425" alt="image" src="https://github.com/anandanovianshaf/dracoffee/assets/144409312/e7430299-146f-4784-9ce8-c536ccbc0ade">
-
 
 <img width="550" alt="image" src="https://github.com/Fadhillahrizqia/Frazxx_Shop/assets/144824636/795246ff-9ea2-4330-9b18-68f0f38e8ef8">
 
@@ -79,10 +77,12 @@ Didalam website ini akan terdapat homepage tentang landing page toko saya
 
 Sebagai | Saya ingin bisa | Sehingga | Prioritas
 ---|---|---|---
-Pengguna | Mengklik Search | Bisa mencari produk yang diinginkan | ⭐⭐⭐⭐
+pengguna | melihat daftar produk tersedia | bisa memilih produk yang tersedia disetiap toko | ⭐⭐⭐⭐⭐
 Pengguna | Mengklik "add to cart" | Bisa menambahkan produk ke shopping cart | ⭐⭐⭐⭐⭐
 Pengguna | Mengklik Navigation Bar di ukuran kecil | Lebih rapih dan tidak berantakan | ⭐⭐⭐
 Pengguna | Mengklik Detail Product | Bisa memunculkan modal box yang berisi detail product | ⭐⭐⭐⭐⭐
+pengguna | Menghapus produk dari cart | bisa  diganti dengan produk lain | ⭐⭐⭐⭐
+pengguna | melihat reveiw produk | bisa melihat feedback dari yang sudah pernah pesan | ⭐⭐⭐
 
 
 ## 3. Struktur Data
@@ -90,9 +90,60 @@ Pengguna | Mengklik Detail Product | Bisa memunculkan modal box yang berisi deta
 Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) 
 
 ```mermaid
+---
+title:  Rstore
+---
 erDiagram
-    RUJAK ||--o{ SAYUR : tersusun
-    PEMBELI ||--|{ RUJAK : beli
+    kategori ||--o{ produk_galeri : produk kategori {
+        int id PK
+        varchar nama
+        varchar slug
+} produk_galeri ||--o{ produk : view produk_galeri {
+        int id PK
+        varchar photo
+        int produk_id
+} produk ||--o{ keranjang : places produk {
+        int id PK
+        varchar nama
+        int users_id FK
+        int harga
+        text deskripsi
+        int kategori_id FK
+} keranjang ||--|{ pengguna : save keranjang {
+        int id PK
+        int produk_id FK
+        int users_id FK
+} pengguna ||..|{ transaksi : procces pengguna {
+        int id PK
+        varchar nama
+        varchar email
+        varchar password
+        text alamat_1
+        text alamat_2
+        int provinsi_id
+        int kabupaten_id
+        int kode_pos
+        varchar negara
+        varchar nomor_telepon
+        varchar nama_toko
+        int kategori_id FK
+        int status_toko
+} transaksi }|..|{ detail_transaksi : payment transaksi {
+        int id PK
+        int users_id FK
+        int harga_diskon
+        int harga_pengiriman
+        int total_harga
+        varchar status_transaksi
+        varchar resi
+} detail_transaksi {
+        int id PK
+        int transaksi_id
+        int produk_id
+        int harga
+}
+
+    
 ```
 
 ## 4. Arsitektur Sistem
