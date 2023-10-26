@@ -159,7 +159,8 @@ flowchart TD
 
 ## 5. Teknologi, Library, dan Framework
 
-bla bla bla
+di project ini saya menggunakan Visual Studio Code sebagai teknologi pendukung saya, serta saya menggunakan font awesome sebagai media saya untuk mengambil icon
+lalu untuk library serta framework saya menggunakan Laravel
 
 ## 6. Desain User Experience dan User Interface
 - Ini adalah link figma saya
