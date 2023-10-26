@@ -80,9 +80,11 @@ Sebagai | Saya ingin bisa | Sehingga | Prioritas
 pengguna | melihat daftar produk tersedia | bisa memilih produk yang tersedia disetiap toko | ⭐⭐⭐⭐⭐
 Pengguna | Mengklik "add to cart" | Bisa menambahkan produk ke shopping cart | ⭐⭐⭐⭐⭐
 Pengguna | Mengklik Navigation Bar di ukuran kecil | Lebih rapih dan tidak berantakan | ⭐⭐⭐
-Pengguna | Mengklik Detail Product | Bisa memunculkan modal box yang berisi detail product | ⭐⭐⭐⭐⭐
+Pengguna | Mengklik Detail Product | Bisa memunculkan detail product | ⭐⭐⭐⭐⭐
+pengguna | Membeli produk | bisa  membawa pulang produk yang dipilih  | ⭐⭐⭐⭐⭐
 pengguna | Menghapus produk dari cart | bisa  diganti dengan produk lain | ⭐⭐⭐⭐
-pengguna | melihat reveiw produk | bisa melihat feedback dari yang sudah pernah pesan | ⭐⭐⭐
+pengguna | melihat review produk | bisa melihat feedback dari yang sudah pernah pesan | ⭐⭐⭐
+
 
 
 ## 3. Struktur Data
