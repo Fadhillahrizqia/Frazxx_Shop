@@ -93,7 +93,7 @@ Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [htt
 
 ```mermaid
 ---
-title:  Rstore
+title:  Frazzx Shop
 ---
 erDiagram
     kategori ||--o{ produk_galeri : produk kategori {
@@ -154,13 +154,13 @@ Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/synta
 
 ```mermaid
 flowchart TD
-    id1[(Database: MySQL)] <--> id2[Aplikasi Web Backend: Javascript - Laravel] <--> id3[Web Server: Javascript - Laravel]  
+    id1[(Database: MySQL)] <--> id2[Aplikasi Web Backend: Javascript - Express.js ] <--> id3[Web Server: Javascript - Express.js]  
 ```
 
 ## 5. Teknologi, Library, dan Framework
 
 di project ini saya menggunakan Visual Studio Code sebagai teknologi pendukung saya, serta saya menggunakan font awesome sebagai media saya untuk mengambil icon
-lalu untuk library serta framework saya menggunakan Laravel
+lalu untuk library serta framework saya menggunakan Bootstrap dan React js
 
 ## 6. Desain User Experience dan User Interface
 - Ini adalah link figma saya
