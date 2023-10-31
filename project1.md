@@ -154,7 +154,7 @@ Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/synta
 
 ```mermaid
 flowchart TD
-    id1[(Database: MySQL)] <--> id2[Aplikasi Web Backend: Javascript - Express.js ] <--> id3[Web Server: Javascript - Express.js]  
+    id1[(Database: PostgreSQL)] <--> id2[Aplikasi Web Backend: Javascript - Express.js ] <--> id3[Web Server: Javascript - Express.js]  
 ```
 
 ## 5. Teknologi, Library, dan Framework
