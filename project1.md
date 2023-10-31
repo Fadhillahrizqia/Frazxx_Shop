@@ -165,6 +165,10 @@ lalu untuk library serta framework saya menggunakan Bootstrap dan React js
 ## 6. Desain User Experience dan User Interface
 
 
+<img width="512" alt="image" src="https://github.com/Fadhillahrizqia/Frazxx_Shop/assets/144824636/3d41c73e-d560-4c13-842c-d382b552c851">
+
+
+
   
 1. Ini adalah desain ui page website saya
 
