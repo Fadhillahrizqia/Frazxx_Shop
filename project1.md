@@ -93,7 +93,7 @@ Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [htt
 
 ```mermaid
 ---
-title:  Frazzx Shop
+title:  Frazx Shop
 ---
 erDiagram
     kategori ||--o{ produk_galeri : produk kategori {
