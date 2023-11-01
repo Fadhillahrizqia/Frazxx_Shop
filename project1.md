@@ -191,7 +191,7 @@ ketika kata contact di klik
 
 ## 7. Demonstrasi Video
 
-Link youtube nya
+https://youtu.be/lWjiscBpeTM
 
 ## 8. Bagaimana mesin komputasi dan sistem operasi berperan dalam produk teknologi informasimu ?
 
